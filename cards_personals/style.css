@@ -50,6 +50,10 @@ body, * {
   background-color: #092635;
 }
 
+.content--bg-none { 
+  background-color: none;
+}
+
 .content--absolute {
   position: absolute;
 }
