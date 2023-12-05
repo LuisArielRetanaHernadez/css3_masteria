@@ -61,3 +61,7 @@ body, * {
   justify-content: center;
   align-items: center;
 }
+
+.bottom-0 { 
+  bottom: 0;
+}
