@@ -43,3 +43,9 @@ body, * {
   object-fit: cover;
   object-position: center;
 }
+
+.content {
+  width: 100%;
+  height: 55%;
+  background-color: #092635;
+}
