@@ -77,6 +77,13 @@ body, * {
 .text span {
   font-size: 12px;
 }
+
+.sociales {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
 /* --------- Uitls -------- */
 
 .flex-center {
