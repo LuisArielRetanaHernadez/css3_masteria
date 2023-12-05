@@ -49,3 +49,7 @@ body, * {
   height: 55%;
   background-color: #092635;
 }
+
+.content--absolute {
+  position: absolute;
+}
