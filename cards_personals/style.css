@@ -131,6 +131,10 @@ body, * {
   flex-direction: column;
 }
 
+.overflow-hiden {
+  overflow: hidden;
+}
+
 .bottom-0 { 
   bottom: 0;
 }
