@@ -53,3 +53,11 @@ body, * {
 .content--absolute {
   position: absolute;
 }
+
+/* --------- Uitls -------- */
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
