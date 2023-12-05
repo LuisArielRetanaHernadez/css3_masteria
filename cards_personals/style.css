@@ -70,6 +70,13 @@ body, * {
   font-weight: 600;
 }
 
+.text h3 {
+  font-size: 22px;
+}
+
+.text span {
+  font-size: 12px;
+}
 /* --------- Uitls -------- */
 
 .flex-center {
