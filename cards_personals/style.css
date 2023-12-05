@@ -85,9 +85,17 @@ body, * {
   justify-content: space-around;
 }
 
-.sociales a {
-  color: #FFF;
+.sociales__icon {
+    color: #FFF;
   font-size: 20PX;
+}
+
+.sociales__icon--y-40p {
+  transform: translateY(40px);
+}
+
+.sociales__icon-transition-2s {
+  transition: all .2s;
 }
 /* --------- Uitls -------- */
 
