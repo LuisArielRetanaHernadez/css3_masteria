@@ -58,6 +58,15 @@ body, * {
   position: absolute;
 }
 
+.content--slide-up {
+  bottom: -100%;
+  transition: all .2s;
+}
+
+.card:hover .content--slide-up {
+  bottom: 0;
+}
+
 .text {
   text-align: center;
   font-size: 17px;
