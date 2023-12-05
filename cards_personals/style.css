@@ -51,7 +51,7 @@ body, * {
 }
 
 .content--bg-none { 
-  background-color: none;
+  background: none;
 }
 
 .content--absolute {
