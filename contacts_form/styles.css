@@ -76,6 +76,10 @@ h2 {
   font-size: 25px;
 }
 
+.icon--hover-blue:hover {
+  color: #39A7FF;
+}
+
 .item span { 
   color: #FFF;
 }
