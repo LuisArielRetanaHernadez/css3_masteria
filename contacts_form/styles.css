@@ -167,3 +167,10 @@ h2 {
 .input-box textarea {
   min-height: 120px;
 }
+
+.input-box span {
+  color: #888;
+  padding: 5px 0;
+  position: absolute;
+  left: 0;
+}
