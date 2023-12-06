@@ -84,3 +84,8 @@ h2 {
   font-size: 25px;
   margin-right: 1rem;
 }
+
+.sociales { 
+  display: flex;
+  justify-content: space-between;
+}
