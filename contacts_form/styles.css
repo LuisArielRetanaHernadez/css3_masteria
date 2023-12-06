@@ -5,3 +5,20 @@ body, * {
   transition: all .2s;
 }
 
+section {
+  height: 100vh;
+  background-color: #39A7FF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section::before {
+  content: '';
+  width: 50%;
+  height: 100%;
+  background-color: #87C4FF;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
