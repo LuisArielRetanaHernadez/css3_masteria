@@ -135,7 +135,6 @@ h2 {
 
 .form-box{
   padding: 30px;
-  background-color: red;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -145,8 +144,6 @@ h2 {
   margin-bottom: 35px;
   position: relative;
 }
-
-/* utils */
 
 .input-box.w-50 {
   width: 50%;
@@ -159,4 +156,9 @@ h2 {
 .input-box input,
 .input-box textarea {
   width: 100%;
+  padding: .3rem 0;
+  font-size: 1.1rem;
+  color: #191919;
+  border: none;
+  border-bottom: 1px solid #191919;
 }
