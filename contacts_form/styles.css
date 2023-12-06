@@ -8,8 +8,9 @@ body, * {
   font-family: 'Ubuntu';
 }
 
-input { 
+input , textarea{ 
   outline: none;
+  resize: none;
   padding: .1rem .2rem;
   border: 1px solid black;
 }
