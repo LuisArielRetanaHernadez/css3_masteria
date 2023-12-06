@@ -58,10 +58,22 @@ h2 {
   z-index: 1;
 }
 
+.info h2 {
+  color: #87C4FF;
+}
+
 .info-text {
   height: 100%;
   margin: 20px 0;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
+}
+
+.item span { 
+  color: #265073;
+}
+
+.item:hover span {
+  color: #05233b;
 }
