@@ -101,6 +101,10 @@ h2 {
   color: #FFF;
 }
 
+.item--pointer {
+  cursor: pointer;
+}
+
 .item:hover span {
   color: #39A7FF;
 }
