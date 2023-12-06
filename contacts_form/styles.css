@@ -141,3 +141,8 @@ h2 {
   justify-content: space-between;
 }
 
+.input-box {
+  margin-bottom: 35px;
+  position: relative;
+}
+
