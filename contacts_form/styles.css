@@ -81,6 +81,22 @@ h2 {
   color: #39A7FF;
 }
 
+.icon--facebook {
+  color: #0766AD;
+}
+
+.icon--youtube {
+  color: #B31312;
+}
+
+.icon--linkedin { 
+  color: #3081D0;
+}
+
+.icon-x {
+  color: #191919;
+}
+
 .item span { 
   color: #FFF;
 }
