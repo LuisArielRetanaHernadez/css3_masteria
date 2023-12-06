@@ -44,3 +44,16 @@ h2 {
   height: 85%;
   background-color: white;
 }
+
+.info { 
+  width: 30%;
+  height: calc(100% - 80px);
+  padding: 40px;
+  background-color: #CE5A67;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  position: absolute;
+  top: 40px;
+  z-index: 1;
+}
