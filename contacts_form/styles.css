@@ -137,8 +137,8 @@ h2 {
   padding: 30px;
   background-color: red;
   display: flex;
+  justify-content: space-around;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .input-box {
@@ -148,10 +148,15 @@ h2 {
 
 /* utils */
 
-w-50 {
+.input-box.w-50 {
   width: 50%;
 }
 
-w-100 {
+.input-box.w-100 {
+  width: 100%;
+}
+
+.input-box input,
+.input-box textarea {
   width: 100%;
 }
