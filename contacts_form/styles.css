@@ -202,3 +202,8 @@ h2 {
   background-color: #232D3F;
   transition: all .5s;
 }
+
+.input-box .button:hover {
+  background-color: #0766AD;
+  color: #191919;
+}
