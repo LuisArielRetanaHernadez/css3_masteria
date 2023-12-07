@@ -177,7 +177,9 @@ h2 {
 }
 
 .input-box--focus input:focus ~ span,
-.input-box--focus textarea:focus ~ span{
+.input-box--focus input:valid ~ span,
+.input-box--focus textarea:focus ~ span,
+.input-box--focus textarea:valid ~ span {
   font-size: 15px;
   color: #191919;
   transform: translateY(-100%);
