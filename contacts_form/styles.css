@@ -168,9 +168,17 @@ h2 {
   min-height: 120px;
 }
 
-.input-box span {
+.input-box--focus span {
   color: #888;
   padding: 5px 0;
   position: absolute;
   left: 0;
+  transition: all .5s;
+}
+
+.input-box--focus input:focus ~ span,
+.input-box--focus textarea:focus ~ span{
+  font-size: 15px;
+  color: #191919;
+  transform: translateY(-100%);
 }
