@@ -8,6 +8,13 @@ body, * {
   font-family: 'Ubuntu';
 }
 
+input , textarea{ 
+  outline: none;
+  resize: none;
+  padding: .1rem .2rem;
+  border: 1px solid black;
+}
+
 section {
   height: 100vh;
   background-color: #39A7FF;
@@ -27,7 +34,7 @@ section::before {
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 23px;
   font-weight: 600;
 }
 
@@ -40,18 +47,17 @@ h2 {
 }
 
 .container--contacts { 
-  width: 80%;
-  height: 85%;
-  background-color: white;
+  width: 1100px;
+  height: 550px;
 }
 
 .info { 
-  width: 30%;
+  width: 350px;
   height: calc(100% - 80px);
   padding: 40px;
   background-color: #232D3F;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-direction: column;
   position: absolute;
   top: 40px;
@@ -66,13 +72,16 @@ h2 {
   height: 100%;
   margin: 20px 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-direction: column;
 }
 
+.item {
+  display: flex;
+}
+
 .icon {
-  min-width: 20px;
-  max-width: 25px;
+  min-width: 25px;
   font-size: 25px;
   color: #FFF;
 }
@@ -118,3 +127,87 @@ h2 {
   justify-content: space-between;
 }
 
+/* FORM */
+
+.form {
+  width: calc(100% - 200px);
+  height: 100%;
+  margin-left: 150px;
+  padding: 70px 50px 70px 250px;
+  background-color: #FFF;
+}
+
+.form-box{
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.input-box {
+  margin-bottom: 35px;
+  position: relative;
+}
+
+.input-box.w-45 {
+  width: 45%;
+}
+
+.input-box.w-100 {
+  width: 100%;
+}
+
+.input-box input,
+.input-box textarea {
+  width: 100%;
+  padding: 5px 0;
+  font-size: 18px;
+  color: #191919;
+  border: none;
+  border-bottom: 1px solid #191919;
+}
+
+.input-box textarea {
+  min-height: 120px;
+}
+
+.input-box--focus span {
+  color: #888;
+  padding: 5px 0;
+  position: absolute;
+  letter-spacing: 1px;
+  left: 0;
+  transition: all .5s;
+}
+
+.input-box--focus input:focus ~ span,
+.input-box--focus input:valid ~ span,
+.input-box--focus textarea:focus ~ span,
+.input-box--focus textarea:valid ~ span {
+  font-size: 15px;
+  color: #191919;
+  transform: translateY(-100%);
+}
+
+.input-box.btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.input-box .button{
+  width: 30%;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #39A7FF;
+  padding: .8rem .5rem;
+  border: none;
+  background-color: #232D3F;
+  transition: all .5s;
+}
+
+.input-box .button:hover {
+  background-color: #0766AD;
+  color: #191919;
+}
