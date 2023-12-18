@@ -17,3 +17,11 @@ nav {
 nav img {
   width: 100px;
 }
+
+nav .enlaces a{
+  position: relative;
+  padding: 0 20px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #092635;
+}
