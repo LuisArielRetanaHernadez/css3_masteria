@@ -28,7 +28,20 @@ nav img {
 nav .enlaces a{
   position: relative;
   padding: 0 20px;
- 
+}
+
+nav .enlaces a::before { 
+  content: ' ';
+  width: 0%;
+  height: 2px;
+  background-color: #092635;
+  position: absolute;
+  bottom: -3px;
+  transition: all .3s;
+}
+
+nav .enlaces a:hover::before{
+  width: 50%;
 }
 
 nav button { 
