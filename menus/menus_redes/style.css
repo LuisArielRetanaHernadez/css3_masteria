@@ -15,3 +15,13 @@ nav {
   align-items: center;
   justify-content: center;
 }
+
+nav a {
+  width: 30px;
+  height: 30px;
+  color: rgba(255, 255, 255, 0.582);
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0 50px;
+  border-radius: 50%;
+}
